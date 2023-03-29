@@ -27,7 +27,57 @@
             cartEmpty: "Your cart is currently empty"}
     </script>
     </head>
-<body id="Hair Collection and Products" class="template-index">
+<body id="collections" class="template-list-collection">
+    <div id="shopify-section-header" class="shopify-section">
+        <style>
+            .site-header_logo img {max-width: 180px;}
+            @media screen and (max-width: 768px) {.site-header_logo img {max-width: 100%;}}      
+        </style>
+        <div data-section-id="header" data-section-type="header-section" data-template="list-collection">
+    </div>
+    </div>
+    <div class="header-container drawer_header-container">
+        <div class="header-wrapper">
+        <header class="site-header" role="banner">
+            <div class="wrapper">
+                <div class="grid--full grid--table">
+                    <div class="grid_item large--hide  large--one-sixth one-quarter">
+                        <button type="button"  class="icon-fallback-text site-nav_link site-nav_link--burger js-drawer-open-button-left"  aria-controls="NavDrawer". aria-expanded="false">
+                            <span class="burger-icon burger-icon--top"></span>
+                            <span class="burger-icon burger-icon--mid"></span>
+                            <span class="burger-icon burger-icon--bottom"></span>
+                        </button>
+        </div>                
+    </div>
+        <nav class="grid_item large--two-thirds large--text-right medium-down--hide" role="navigation">
+            <ul class="site-nav site-nav--init"  id="AccessibleNav">
+                <li class="site-nav_item">
+                    <a href="https://www.francois-sti.github.io" class="site-nav_link" data-meganav-type="child"> Home </a>
+                </li>
+                <li class="site-nav_item site-nav--active">
+                    <a href="/collections" class="site-nav_link" data-meganav-type="child" aria-current="page"> Products </a>
+                </li>
+                <li class="site-nav_item">
+                    <a href="/pages/about-our-company" class="site-nav_link" data-meganav-type="child"> About Us </a>
+                </li>
+                <li class="site-nav_item site-nav_expanded-item site-nav_item--compressed">
+                    <a class="site-nav_link site-nav_link--icon" href="/account"></a>
+                </li>
+            </ul>
+        </nav>
+        <div id="PageContainer" class="page-container">
+            <main class="main-content" role="main">
+                <div class="wrapper">
+                    <div id="shopify-section-list-collections-template" class="shopify-section">
+                        <header class="section-header text-center">
+                            <h1>Catalog</h1>
+                            <hr class="hr--small">
+                        </header>
+                        <div class="grid collection-grid"></div>
+                    </div>
+                </div>
+            </main>
+        </div>
 <h1>Hair Collection and Products</h1>
 <p>I’m hosted with GitHub Pages.</p>
 </body>
